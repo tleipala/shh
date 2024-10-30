@@ -11,7 +11,4 @@ class SpreadSheet:
         return self._cells.get(cell, '')
 
     def evaluate(self, cell: str) -> int | str:
-        value = self.get(cell)
-        if value.isalnum():
-            return int(value)
-        return value
+        pass
